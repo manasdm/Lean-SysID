@@ -26,6 +26,8 @@ All files are in [`Lean codes/`](Lean%20codes).
 Each file begins with a header comment that states the results, the notation and the
 formalization choices. The `-- ANCHOR:` comments mark the code excerpts reproduced in the paper.
 
+Lean tactics and notation used in the paper are given in the table. 
+
 ## Building the code
 
 The files require Lean 4 and Mathlib. `Tutorial.lean`, `Identification.lean`, `Template.lean`,
