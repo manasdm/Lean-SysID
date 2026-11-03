@@ -2,7 +2,7 @@
 
 Lean 4 code accompanying the paper
 
-> **A Lean Perspective on System Identification**
+> **From Pen-and-Paper to Machine-Checked Proofs: Lean for System Identification**
 > Manas Mejari, Dario Piga, Marco Forgione
 > IDSIA Dalle Molle Institute for Artificial Intelligence, USI-SUPSI, Lugano, Switzerland
 
