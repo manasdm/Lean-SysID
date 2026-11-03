@@ -18,7 +18,7 @@ All files are in [`Lean codes/`](Lean%20codes).
 | File | Content |
 |------|---------|
 | [`Tutorial.lean`](Lean%20codes/Tutorial.lean) | Warm-up examples: a one-line `linarith` proof, the same fact proved step by step, invariance of the interval `{x : abs x ≤ r}` for `x⁺ = a x` with `abs a ≤ 1`, and invariance along the whole trajectory by induction. |
-| [`Identification.lean`](Lean%20codes/Identification.lean) | Lemma 1 of the paper: for `y = φ θ`, the parameter `θ` is identifiable from one data point iff `φ₁ ≠ 0` (persistent excitation), and then the estimator `y₁ / φ₁` is exact. |
+| [`Identification.lean`](Lean%20codes/Identification.lean) | Lemma 2 of the paper: for `y = φ θ`, the parameter `θ` is identifiable from one data point iff `φ₁ ≠ 0` (persistent excitation), and then the estimator `y₁ / φ₁` is exact. |
 | [`Lemma_3_1_Ljung.lean`](Lean%20codes/Lemma_3_1_Ljung.lean) | Ljung (1999), Lemma 3.1: inverting the noise filter, `H⁻¹(q) v(t) = e(t)`. The formalization makes explicit that, for white noise with finite variance, the claim holds *almost surely* (`lemma_3_1`), and adds the missing steps of the proof (Cauchy product identity (3.10), absolute convergence of the double series, interchange of summation). |
 | [`Template.lean`](Lean%20codes/Template.lean) | A template and building blocks for system identification in Lean, in Ljung's notation: signals, model structures, identifiability, the ARX structure and a proof that it is globally identifiable, the PEM criterion `V_N`, persistent excitation, and state-space simulation. |
 
@@ -30,7 +30,7 @@ Lean tactics and notation used in the paper are given in the table.
 
 ## Building the code
 
-The files require Lean 4 and Mathlib. `Tutorial.lean`, `Identification.lean`, `Template.lean`,
+The files require Lean 4 and Mathlib, and were tested with Lean v4.35.0 and the matching Mathlib release. `Tutorial.lean`, `Identification.lean`, `Template.lean`,
 `Lemma_3_1_Ljung.lean` import only `Mathlib` and compile on their own.
 
 
