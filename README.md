@@ -55,6 +55,6 @@ The files require Lean 4 and Mathlib, and were tested with Lean v4.35.0 and the 
 ## References
 
 - L. Ljung. *System Identification: Theory for the User*, 2nd ed. Prentice Hall, 1999.
-- T. Söderström and P. Stoica. *System Identification*. Prentice Hall, 1989.
+
 
 
